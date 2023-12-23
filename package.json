@@ -1,7 +1,7 @@
 {
   "name": "r-right-menu",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "react contextmenu",
   "keywords": [
@@ -35,9 +35,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
-    "bem2": "^1.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "bem2": "^1.0.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "7.6.6",
@@ -52,6 +50,8 @@
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
     "chromatic": "^10.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup-plugin-visualizer": "^5.11.0",
     "sass": "^1.69.5",
     "storybook": "7.6.6",
