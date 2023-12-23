@@ -5,7 +5,8 @@
 # Demo
 
 ```js
-import { useRightMenu } from 'right-menu';
+import { useRightMenu } from 'r-right-menu';
+import 'r-right-menu/style.css';
 
 function App() {
     const ref = useRightMenu([
