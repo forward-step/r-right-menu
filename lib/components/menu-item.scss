@@ -1,0 +1,27 @@
+@include b(menu-item) {
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    line-height: 32px;
+    color: #606266;
+    font-size: 12px;
+    cursor: pointer;
+    @include e(icon) {
+        display: flex;
+        align-items: center;
+        width: 13px;
+        margin-right: 8px;
+    }
+    @include e(arrow) {
+        margin-left: auto;
+    }
+
+    @include when(selected) {
+        color: #409eff;
+        background-color: #ecf5ff;
+    }
+    @include when(disabled) {
+        color: #c0c4cc;
+        cursor: not-allowed;
+    }
+}
